@@ -1,5 +1,4 @@
 # Face-recognition-app
-# Analysis-and-clustering-of-data-world-university-ranking
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
@@ -35,6 +34,6 @@ The library is able to detect faces with high accuracy, even in challenging cond
 
 * face recognition, the library is able to identify individuals in images or videos by comparing them to a known database of faces. 
 The result is a list of potential matches, ranked by their similarity to the input face.
-The accuracy of the face recognition results depends on the quality of the input data and the size and quality of the database of known faces.
-This exemple of result :
-![detection and recognition face](image_url)
+The accuracy of the face recognition results depends on the quality of the input data and the size and quality of the database of known faces.  
+This exemple of result :  
+![detection and recognition face](https://github.com/oumaima-sboui/Face-recognition-app/blob/master/output.jpg)
