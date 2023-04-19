@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Face recognition result</title>
+</head>
+<body>
+    <h1>Face recognition result</h1>
+    <img src="{{ url_for('static', filename='output.jpg') }}" alt="Result image">
+    {% if name %}
+        <h2>Detected person: {{ name }}</h2>
+    {% else %}
+        <h2>tplus@copyright</h2>
+    {% endif %}
+    <br>
+    <a href="/">Back to home page</a>
+</body>
+</html>
